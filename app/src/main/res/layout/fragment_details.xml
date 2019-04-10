@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hazem.baking_app.DetailsFragment"
+    android:orientation="vertical"
+    android:id="@+id/uu"
+    android:background="#72dbe9"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sc"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:id="@+id/TV_ingred"
+            android:textSize="15dp"
+            android:textColor="#0a287b"
+            android:layout_margin="10dp"
+            />
+    </ScrollView>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/RV_vedios"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
